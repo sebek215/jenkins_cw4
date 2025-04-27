@@ -1,0 +1,15 @@
+{
+    "name": "jenkins-nodejs-app",
+    "version": "1.0.0",
+    "description": "Simple Node.js app for Jenkins testing",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app/index.js",
+      "test": "jest"
+    },
+    "author": "TwojeImie",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^29.7.0"
+    }
+  }
